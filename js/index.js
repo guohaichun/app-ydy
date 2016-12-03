@@ -14,9 +14,7 @@
             html.style.fontSize=scale+"px";
         }
         resize(750,"x");
-        var swiper = new Swiper('.swiper-container');
         var mySwiper = new Swiper ('.swiper-container', {
-        	  pagination : '.swiper-pagination',
             onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
                 swiperAnimateCache(swiper); //隐藏动画元素
                 swiperAnimate(swiper); //初始化完成开始动画
